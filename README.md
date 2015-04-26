@@ -2,6 +2,7 @@
 **Set project properties dynamically while building a maven project**
 
 This plugin intends to help out other plugins by defining project properties via build-time.
+
 Add the following to your pom to use the plugin:
 
 ```
@@ -14,7 +15,9 @@ Add the following to your pom to use the plugin:
 ```
 
 The plugin only provides one goal: set-properties
+
 This goal evaluates a condition and decides based on the configuration which properties need to be set.
+
 
 Example configuration:
 
