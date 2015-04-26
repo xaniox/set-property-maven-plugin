@@ -10,7 +10,7 @@ import org.apache.maven.plugins.annotations.LifecyclePhase;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 
-@Mojo(name = "set-properties", defaultPhase = LifecyclePhase.COMPILE)
+@Mojo(name = "set-properties", defaultPhase = LifecyclePhase.VALIDATE)
 public class SetPropertyMojo extends AbstractMojo {
 	
 	@Parameter(defaultValue = "${project}", readonly = true, required = true)
